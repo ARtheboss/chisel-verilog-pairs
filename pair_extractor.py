@@ -5,6 +5,7 @@ import shutil
 def extract_one_to_one_pairs(config):
 
     save_folder = "/scratch/advayratan/chisel-verilog-pairs/output_pairs"
+    os.makedirs(save_folder, exist_ok=True)
     collateral_folder = f"/scratch/advayratan/chipyard/sims/vcs/generated-src/chipyard.harness.TestHarness.{config}/gen-collateral"
 
     path = ["/scratch/advayratan/chipyard/", "/scratch/advayratan/chipyard/sims/firesim/sim/rocket-chip/dependencies/chisel/"]

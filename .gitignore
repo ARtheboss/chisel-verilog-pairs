@@ -1,0 +1,3 @@
+./training_data.json
+output_pairs/*
+__pycache__

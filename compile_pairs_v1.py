@@ -2,7 +2,7 @@ import os
 import json
 
 main_directory = "./output_pairs"
-output_file = "./training_data.json"
+output_file = "./chisel_verilog_training_data.json"
 
 formatted_pairs = []
 for folder_name in os.listdir(main_directory):
